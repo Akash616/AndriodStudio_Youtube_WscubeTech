@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StaticWayInFragment.MainActivity">
+
+<!--Static Way because phele say hi define kar diya hai,
+    android:name="" , is particular portion mai ya chij dikha
+    gi.-->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.bottomnavbarapp.fragmentexample.StaticWayInFragment.DemoFragment"
+        android:id="@+id/Frag1"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:name="com.bottomnavbarapp.fragmentexample.StaticWayInFragment.DemoTwoFragment"
+        android:id="@+id/Frag2"/>
+
+</LinearLayout>

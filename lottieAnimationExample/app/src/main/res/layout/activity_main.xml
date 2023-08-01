@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:lottie_rawRes="@raw/lottie"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+<!-- ya activity jasa hi open ho, ya lottie animation is view pai play
+ho jana chahiya, toh ya aap xml say bhi kar sakta hao.-->
+
+    <Button
+        android:id="@+id/btnNextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Next Page"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+<!--    android:layout_gravity="center|bottom"-->
+
+</LinearLayout>

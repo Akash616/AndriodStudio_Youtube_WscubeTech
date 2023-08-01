@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gravity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/About"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+    <!--    android:padding="11dp"-->
+    <!--    android:background="#22EDFF"-->
+    <!--    android:background="@drawable/ic_launcher_background"-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="300dp"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        android:contentDescription="@string/About"-->
+    <!--        android:scaleType="fitXY"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/AboutUs"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textAllCaps="true"/>-->
+
+    <!--    <EditText-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="12"-->
+    <!--        android:inputType="text"-->
+    <!--        android:hint="Enter Your Name"/>-->
+
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:backgroundTint="#D1CADF"-->
+    <!--        android:text="Contact Us"-->
+    <!--        android:textColor="#000000"/>-->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/About"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/AboutUs"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:hint="@string/edtHint"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textAllCaps="true"
+        android:textColor="#FAD25B"
+        app:backgroundTint="#AEA5BD" />
+</LinearLayout>
