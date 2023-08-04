@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetrofitDemoExample</string>
+    <string name="this_is_demo">This is Demo</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_job">Enter your job</string>
+    <string name="send_data_to_api">Send Data to API</string>
+    <string name="response">Response</string>
+</resources>

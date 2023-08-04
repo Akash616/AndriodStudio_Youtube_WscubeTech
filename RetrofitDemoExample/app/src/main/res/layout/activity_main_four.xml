@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DemoFourGeeksforGeeks.MainActivityFour">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEdtName"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_your_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEdtJob"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_your_job"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBtnPost"
+        android:layout_margin="20dp"
+        android:text="@string/send_data_to_api"
+        android:textAllCaps="true"/>
+
+    <!--text view for displaying our API response-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTvResponse"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/response"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idPbLoading"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>
