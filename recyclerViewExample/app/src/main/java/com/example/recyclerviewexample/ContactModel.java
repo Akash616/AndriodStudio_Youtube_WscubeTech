@@ -15,4 +15,8 @@ public class ContactModel {
         this.img = img;
     }
 
+    public ContactModel(String name, String number) {
+        this.name = name;
+        this.number = number;
+    }
 }

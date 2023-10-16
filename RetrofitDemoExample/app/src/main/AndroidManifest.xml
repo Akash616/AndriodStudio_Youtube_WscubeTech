@@ -18,9 +18,6 @@
             android:name=".DemoFourGeeksforGeeks.SecondActivityFour"
             android:exported="false"/>
         <activity
-            android:name=".DemoFiveGeeksforGeeks.MainActivityFive"
-            android:exported="false"/>
-        <activity
             android:name=".DemoFourGeeksforGeeks.MainActivityFour"
             android:exported="true">
             <intent-filter>

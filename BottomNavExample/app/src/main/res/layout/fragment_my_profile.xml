@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4CAF50"
-    tools:context=".MyProfileFragment">
+    tools:context=".noCustomBottomNavViewOne.MyProfileFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opt_new"
+        android:icon="@drawable/new_folder"
+        android:title="New"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/opt_open"
+        android:icon="@drawable/open"
+        android:title="Open"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/opt_save"
+        android:icon="@drawable/save"
+        android:title="Save"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

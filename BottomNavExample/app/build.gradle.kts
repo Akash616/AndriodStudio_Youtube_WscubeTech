@@ -1,3 +1,4 @@
+
 plugins {
     id("com.android.application")
 }
@@ -39,4 +40,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //implementation("com.github.wwdablu:lottiebottomnav:x.y.z")
+    implementation("com.gauravk.bubblenavigation:bubblenavigation:1.0.7")
+
 }

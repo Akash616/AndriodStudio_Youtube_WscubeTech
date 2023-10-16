@@ -103,7 +103,7 @@ public class MainActivityFour extends AppCompatActivity {
 
                 // on below line we are getting our data from modal class and adding it to our string.
                 String responseString = "Response Code : " + response.code() + "\nName : " + responseFromAPI.getName()
-                        + "\n" + "Job : " + responseFromAPI.getJob();
+                        + "\n" + "Job : " + response.body();
 
                 //Log.e();
                 Log.d("onResponse","Error messgae...."+response.code()); //.body()
