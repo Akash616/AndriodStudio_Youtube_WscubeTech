@@ -83,9 +83,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==GALLERY_REQ_CODE && resultCode==RESULT_OK){
+            // Get the Image from data
             if(data.getClipData()!=null){
-                int x=data.getClipData().getItemCount();
-                for(int i=0;i<x;i++){
+                int count=data.getClipData().getItemCount();
+                for(int i=0;i<count;i++){
+                    // adding imageuri in array
                     list.add(data.getClipData().getItemAt(i).getUri());
                 }
                 adaptor.notifyDataSetChanged();
